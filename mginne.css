@@ -1,0 +1,118 @@
+	.navigation{
+		float: right;
+		width:100%;
+		height: 10vh;
+		background-color: #095086;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		border-radius: none;
+
+	}
+	.main{
+		margin-top: 0px;
+		clear: both;
+		padding-top: 0px;
+		width: 100%;
+		background-color: #095086;
+		height: 60vh;
+		position: relative;
+
+	}
+	.heading{
+		font-family: arial black,sans-serif;
+		position: relative;
+		color:white;
+		font-size: 5vw;	
+
+	}
+	.headingtop{
+		text-align: center;
+		padding-top: 10vh;
+		line-height: 60%;
+		text-decoration: none;
+	}
+	.heading a{
+		color:white;
+		text-decoration: none;
+	}
+	.headingbelow{
+		padding-left: 30%;
+		padding-right: 40%;	
+	}
+
+	.headingsmall{
+		/*font-family: arial,Helvetica,sans-serif;*/
+		font-family:Courier;
+		position: relative;
+		color:white;
+		font-size: 1.75vw;
+		text-align: center;
+		
+	}
+	.headingsmall a{
+		text-decoration: none;
+		color:white;
+	}
+	.btnclass{
+		margin-left: 37%;
+		border-radius: 40px 40px 40px 40px;
+		font-size: 1.5vw;
+		height: 10vh;
+		color: white;
+		background-color: #1C7EC2;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	.footer{
+		margin-top: 0px;
+		clear: both;
+		padding-top: 0px;
+		width: 100%;
+		background-color: #fff;
+		height: 30vh;
+	}
+	.footerheading{
+		font-family: Trebuchet;
+		position: relative;
+		color:white;
+		font-size: 3vw;
+		text-align: center;
+		padding-top: 2%;
+		color:#095086;
+		line-height: 20%;
+	}
+	.footerheading a{
+		text-decoration: none;
+		color:#095086;
+	}
+	.cloud{
+		font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+		background-color: #1C7EC2;
+		position: fixed;
+		color: black;
+		font-size: 1.5vw;
+		line-height: 100%;
+		color: white;
+		width:40%;
+		text-align: center;
+		margin:5% 25% 0 30%;
+		padding:1% 1% 4.5% 1%;
+		border-radius: 20px 20px 20px 20px;
+	}
+	.navtab{
+		top:10px; text-decoration: none;
+		margin-left: -17px;
+	}
+	.navbar-nav{
+		
+    overflow-y: hidden;
+
+	}
+	span{
+		background-color: black;
+	}
+	.container>.navbar-collapse{
+		/*margin-left:450px;*/
+		float: right;
+		
+	}
