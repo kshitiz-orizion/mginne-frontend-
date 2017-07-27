@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <style type="text/css">
-	.navbar{
+	.navigation{
 		float: right;
-		width:80%;
+		width:100%;
 		height: 10vh;
 		background-color: #095086;
 		padding-bottom: 0px;
 		margin-bottom: 0px;
+		border-radius: none;
 
 	}
 	.main{
@@ -20,17 +22,24 @@
 		background-color: #095086;
 		height: 60vh;
 		position: relative;
+
 	}
 	.heading{
 		font-family: arial black,sans-serif;
 		position: relative;
 		color:white;
 		font-size: 5vw;	
+
 	}
 	.headingtop{
 		text-align: center;
 		padding-top: 10vh;
 		line-height: 60%;
+		text-decoration: none;
+	}
+	.heading a{
+		color:white;
+		text-decoration: none;
 	}
 	.headingbelow{
 		padding-left: 30%;
@@ -38,20 +47,26 @@
 	}
 
 	.headingsmall{
-		font-family: arial,sans-serif;
+		font-family: Roboto,arial,sans-serif;
 		position: relative;
 		color:white;
 		font-size: 2vw;
 		text-align: center;
 		
 	}
+	.headingsmall a{
+		text-decoration: none;
+		color:white;
+	}
 	.btnclass{
 		margin-left: 37%;
-		border-radius: 4px;
+		border-radius: 40px 40px 40px 40px;
 		font-size: 1.5vw;
 		height: 10vh;
 		color: white;
-		background-color: lightblue;
+		background-color: #1C7EC2;
+		padding-left: 3%;
+		padding-right: 3%;
 	}
 	.footer{
 		margin-top: 0px;
@@ -71,27 +86,88 @@
 		color:#095086;
 		line-height: 20%;
 	}
+	.footerheading a{
+		text-decoration: none;
+		color:#095086;
+	}
+	.cloud{
+		background-color: #1C7EC2;
+		position: fixed;
+		color: black;
+		font-size: 1.75vw;
+		line-height: 100%;
+		color: white;
+		width:40%;
+		text-align: center;
+		margin:5% 25% 0 30%;
+		padding:1% 1% 4.5% 1%;
+		border-radius: 20px 20px 20px 20px;
+	}
+	.navtab{
+		top:10px; text-decoration: none;
+	}
+	.navbar-nav{
+		
+    overflow-y: hidden;
+
+	}
+	span{
+		background-color: black;
+	}
+	.container>.navbar-collapse{
+		/*margin-left:450px;*/
+		float: right;
+		opacity: 0.5;
+	}
+	.navbar-collapse li{
+			color:white;
+	}
 </style>
 <head>
 	<title>MGINNE</title>
 </head>
 <body>
 
-	<div class="navbar">
-		
+	<div class="navigation navbar navbar-static-top">
+		<div class="container">
+			<div class="navbar-brand">
+				<img src="./logo.png">
+			</div>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse" style="float:right">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul >
+					<div class="nav navbar-nav navbar-right">
+					<li></li>
+					<li><a href="#" style="color:white;background-color:#095086;" class="navtab">FEATURES</a></li>
+					<li><a href="#" style="color:white;background-color:#095086;" class="navtab">PRICING</a></li>
+					<li><a href="#" style="color:white;background-color:#095086;" class="navtab">CASE STUDIES</a></li>
+					<li><a href="#" style="color:white;background-color:#095086;" class="navtab">BLOG</a></li>
+					<li><a href="#" style="color:white;background-color:#095086;" class="navtab">SUPPORT</a></li>
+					<li><a href="#" style="color:white;background-color:#095086;" class="navtab">LOGIN</a></li>
+					<li><a href="#" style="color:white;background-color:#095086;" class="navtab">SIGN-UP</a></li>
+					<li><a href="#" style="color:white;background-color:#095086;" class="navtab"><i class="fa fa-phone" style="color:white;"></i>+91-8088-919-888</a></li>
+					<li></li>
+					</div>
+				</ul>
+			</div>
+		</div>
 	</div>
 	<div class="main">
 		<div class="heading headingtop ">
-			The Lego of customer
+			<a>The Lego of customer
 		</div>
 		<div class="heading headingbelow" >
-			communication	
+			<a>communication	
 		</div>
 		<div class="headingsmall">
-		Exotel is a building block that helps you customize customer communication over calls and
+		<a>Exotel is a building block that helps you customize customer communication over calls and
 		</div>
 		<div class="headingsmall">
-			SMS
+			<a>SMS
 		</div>
 		<button class="btn btnclass">
 			START YOUR FREE TRIAL!
@@ -99,13 +175,25 @@
 	</div>
 	<div class="footer">
 		<div class="footerheading">
-			Powering 4 Million
+			<a>Powering 4 Million
 		</div>
 		<div class="footerheading">
-			Customers Conversation Everyday
+			<a>Customers Conversation Everyday
 		</div>
-		
+		<div style="float: right; width:70px; height: 70px;background-color: #2E9BE7;border-radius: 100%;margin-right: 5vw;margin-top: 9vh;">
+		<i class="material-icons" style="color:white;font-size: 30px;margin-top: 20px;margin-left: 20px;">forum</i>
+		</div>
+		<div class="cloud">
+			Cloud Telephony Platform trusted by 1300+
+			companies of all sizes
+		</div>
+
 	</div>
+	
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
